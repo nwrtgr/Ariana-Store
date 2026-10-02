@@ -1,0 +1,288 @@
+body
+{
+  background: radial-gradient(40% 50%, #859bb8,#cfd6de,#c8bfba);
+  color: black;
+  font-family: StSign, StSign Normal;
+}
+body {
+   
+    text-align: center;
+    padding: 40px;
+   
+  }
+  
+  .button {
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 219, 219, 0.72);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-size:1.0em;
+  }
+  
+  .glow-button:hover {
+    color: #ea7696 ;
+    box-shadow: 0 15px 15px#f8688f;
+  }
+ 
+header 
+{
+  text-align: center;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/people/peo-9/peo1055.cur), auto !important;} /* End https://www.cursors-4u.com */
+main1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color:  #859bb8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #c8bfba;
+}
+
+.product1img
+{
+  float: left;
+  margin-right: 20px;
+}
+h1
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size:2.9em;
+  font-weight: bold;
+}
+h2
+{
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h4
+{
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+a { text-align: center;
+    display: block;
+    font-size: 15px;
+    font-weight: normal; 
+   font-size: 15px; 
+   font-weight: 400; 
+   line-height: 24px;
+   font-size:2.9em;
+   margin: 0 0 14px; 
+}
+p
+{
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+
+div#kvadrat_0 {
+    font-size:1.0em;
+    width: 800px;
+    height: 150px;
+    margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 7px 3px #96a9c1;
+        text-indent: 0px;
+
+    }
+    div#kvadrat_1 {
+        font-size:1.0em;
+        width: 800px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 7px 3px #96a9c1;
+        text-indent: 0px;
+       }
+        div#kvadrat_2{
+            font-size:1.0em;
+            width: 800px;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 7px 3px #96a9c1;
+            text-indent: 0px;
+           }
+           div#kvadrat_3{
+
+            width: 820px;
+            height: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 7px 3px #96a9c1;
+            text-indent: 0px;
+           }
+           div#kvadrat_4{
+
+            width: 830px;
+            height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 7px 3px #96a9c1;
+            text-indent: 0px;
+           }
+
+           nav ul
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: black;
+   font-size:1.7em;
+}
+
+nav a:hover
+{
+  font-weight: bold;
+ 
+}
+
+.div2
+{
+  float: right;
+}
+
+section
+{
+  margin-bottom: 20px;
+  background-image: url("ари (2).png");
+}
+
+.product
+{
+  text-align: center;
+}
+
+.product1
+{
+  text-align: justify;
+}
+
+.product img
+{
+  width: 200px;
+  height: 220px;
+  
+}
+
+.miniLogo {
+    width: 250px;
+    height: 140x;
+    margin-right: 10px;
+}
+footer
+{
+  text-align: center;
+}
+/* планшеты горизонтально */
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/* планшеты вертикально */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* телефоны горизонтально */
+@media (max-width: 767px) {
+
+}
+
+/* телефоны вертикально */
+@media (max-width: 480px) {
+
+}
+/*отзыв*/
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color:  #cfd6de;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color:#859bb8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f6b;
+}
+
